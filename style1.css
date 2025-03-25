@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #4a00e0, #8e2de2);
+    color: white;
+    padding: 100px 0;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f8f9fa;
+}
+
+/* Services Section */
+.services-section .card {
+    border: none;
+    transition: transform 0.3s;
+}
+.services-section .card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f8f9fa;
+}
+.contact-section .form-control {
+    max-width: 500px;
+    margin: auto;
+}
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px 0;
+}
+
+/* Hero Section */
+header {
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Contact Form */
+form .form-control {
+    border-radius: 5px;
+}
+
+button {
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
